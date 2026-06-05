@@ -8,7 +8,7 @@ class Rectangle{
 
     public:
 
-    Rectangle (int l, int b){
+    Rectangle (int l, int b){   // Allows input of Length and Breadth while initialising class in main function
         length=l;
         breadth=b;
     }
