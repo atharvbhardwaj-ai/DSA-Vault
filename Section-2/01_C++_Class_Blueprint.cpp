@@ -3,9 +3,11 @@ using namespace std;
 
 class Rectangle{
     private:
+
     int length;
     int breadth;
 
+    
     public:
 
     Rectangle (int l, int b){   // Allows input of Length and Breadth while initialising class in main function
