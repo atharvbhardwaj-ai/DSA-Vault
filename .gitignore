@@ -1,2 +1,23 @@
+# Binaries and object files
 *.exe
-tempCodeRunnerFile.*
+*.out
+*.o
+*.obj
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# VS Code configs
+.vscode/
+
+# Ignore all compiled executables anywhere, allow only source/notes
+*
+!*/
+!*.cpp
+!*.c
+!*.h
+!*.hpp
+!*.txt
+!*.md
+!.gitignore
